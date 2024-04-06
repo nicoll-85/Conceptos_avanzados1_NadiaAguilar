@@ -1,0 +1,79 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+body{
+  background-color: #ffffff;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  color: rgb(55, 53, 53);
+}
+
+h1,h2{
+  font-family: "Abril Fatface", serif;
+  color: #05797f;
+  
+}
+
+p{
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+button{
+  padding: 0.7rem 1.5rem;
+  border-radius: 23px;
+  background: #05797f;
+  color: aliceblue;
+  border: none;
+  margin-top: 10px;
+  margin-right: 5px;
+  font-weight: 600;
+}
+
+button:hover{
+border:1px solid white;
+background-color: #02585d;
+}
+
+input{
+padding: 0.7rem 1.5rem;
+background: #dcd8df;
+color: #05797f;
+border-radius: 16px;
+border: none;
+margin-right: 5px;
+}
+input:focus-visible {
+outline-color: #05797f;
+outline-style: dotted;
+}
+form div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+label{
+  margin-right: 10px;
+}
+textarea{
+  border-radius: 16px;
+}
+select{
+    padding: 0.7rem 1rem;
+    background: #dcd8df;
+    border-radius: 10px;
+    border: 1px dotted grey;
+}
+
+ul {
+  list-style-type:none;
+}
+
+li button{
+  margin-left: 20px;
+}
